@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F22209023F45E0400DD6EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22208F23F45E0400DD6EBC /* AppDelegate.swift */; };
+		9F22209223F45E0400DD6EBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22209123F45E0400DD6EBC /* SceneDelegate.swift */; };
+		9F22209423F45E0400DD6EBC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22209323F45E0400DD6EBC /* FirstViewController.swift */; };
+		9F22209623F45E0400DD6EBC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22209523F45E0400DD6EBC /* SecondViewController.swift */; };
+		9F22209923F45E0400DD6EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F22209723F45E0400DD6EBC /* Main.storyboard */; };
+		9F22209B23F45E0500DD6EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F22209A23F45E0500DD6EBC /* Assets.xcassets */; };
+		9F22209E23F45E0500DD6EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F22209C23F45E0500DD6EBC /* LaunchScreen.storyboard */; };
+		9F2220A623F45F9000DD6EBC /* YoloModelSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2220A523F45F9000DD6EBC /* YoloModelSelection.swift */; };
+		9F2220A823F45FB600DD6EBC /* YOLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2220A723F45FB600DD6EBC /* YOLO.swift */; };
+		9F2220AA23F45FE100DD6EBC /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2220A923F45FE100DD6EBC /* Debugging.swift */; };
+		9F2220AC23F4602800DD6EBC /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2220AB23F4602800DD6EBC /* BoundingBox.swift */; };
+		9F2220AE23F4604B00DD6EBC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2220AD23F4604B00DD6EBC /* Helpers.swift */; };
+		9F2220B023F4607500DD6EBC /* Optimization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2220AF23F4607500DD6EBC /* Optimization.swift */; };
+		9F2220B223F4609900DD6EBC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2220B123F4609900DD6EBC /* Settings.swift */; };
+		9F2220B423F460C300DD6EBC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2220B323F460C300DD6EBC /* UIImageExtension.swift */; };
+		9F2220B623F46D7600DD6EBC /* yolo-tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9F2220B523F46D7600DD6EBC /* yolo-tiny.mlmodel */; };
+		9F3A4FA7242619ED00F4A116 /* yolocustom9.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A4FA6242619ED00F4A116 /* yolocustom9.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F22208C23F45E0400DD6EBC /* Tram Track Object detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tram Track Object detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F22208F23F45E0400DD6EBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F22209123F45E0400DD6EBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F22209323F45E0400DD6EBC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9F22209523F45E0400DD6EBC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9F22209823F45E0400DD6EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F22209A23F45E0500DD6EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F22209D23F45E0500DD6EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F22209F23F45E0500DD6EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2220A523F45F9000DD6EBC /* YoloModelSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoloModelSelection.swift; sourceTree = "<group>"; };
+		9F2220A723F45FB600DD6EBC /* YOLO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
+		9F2220A923F45FE100DD6EBC /* Debugging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		9F2220AB23F4602800DD6EBC /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		9F2220AD23F4604B00DD6EBC /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		9F2220AF23F4607500DD6EBC /* Optimization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optimization.swift; sourceTree = "<group>"; };
+		9F2220B123F4609900DD6EBC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9F2220B323F460C300DD6EBC /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		9F2220B523F46D7600DD6EBC /* yolo-tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "yolo-tiny.mlmodel"; sourceTree = "<group>"; };
+		9F3A4FA6242619ED00F4A116 /* yolocustom9.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolocustom9.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F22208923F45E0400DD6EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F22208323F45E0400DD6EBC = {
+			isa = PBXGroup;
+			children = (
+				9F22208E23F45E0400DD6EBC /* Tram Track Object detection */,
+				9F22208D23F45E0400DD6EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F22208D23F45E0400DD6EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F22208C23F45E0400DD6EBC /* Tram Track Object detection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F22208E23F45E0400DD6EBC /* Tram Track Object detection */ = {
+			isa = PBXGroup;
+			children = (
+				9F2220B523F46D7600DD6EBC /* yolo-tiny.mlmodel */,
+				9F3A4FA6242619ED00F4A116 /* yolocustom9.mlmodel */,
+				9F22208F23F45E0400DD6EBC /* AppDelegate.swift */,
+				9F22209123F45E0400DD6EBC /* SceneDelegate.swift */,
+				9F22209323F45E0400DD6EBC /* FirstViewController.swift */,
+				9F22209523F45E0400DD6EBC /* SecondViewController.swift */,
+				9F22209723F45E0400DD6EBC /* Main.storyboard */,
+				9F2220A523F45F9000DD6EBC /* YoloModelSelection.swift */,
+				9F2220A723F45FB600DD6EBC /* YOLO.swift */,
+				9F2220A923F45FE100DD6EBC /* Debugging.swift */,
+				9F2220AB23F4602800DD6EBC /* BoundingBox.swift */,
+				9F2220AD23F4604B00DD6EBC /* Helpers.swift */,
+				9F2220AF23F4607500DD6EBC /* Optimization.swift */,
+				9F2220B123F4609900DD6EBC /* Settings.swift */,
+				9F2220B323F460C300DD6EBC /* UIImageExtension.swift */,
+				9F22209A23F45E0500DD6EBC /* Assets.xcassets */,
+				9F22209C23F45E0500DD6EBC /* LaunchScreen.storyboard */,
+				9F22209F23F45E0500DD6EBC /* Info.plist */,
+			);
+			path = "Tram Track Object detection";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F22208B23F45E0400DD6EBC /* Tram Track Object detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2220A223F45E0500DD6EBC /* Build configuration list for PBXNativeTarget "Tram Track Object detection" */;
+			buildPhases = (
+				9F22208823F45E0400DD6EBC /* Sources */,
+				9F22208923F45E0400DD6EBC /* Frameworks */,
+				9F22208A23F45E0400DD6EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tram Track Object detection";
+			productName = "Tram Track Object detection";
+			productReference = 9F22208C23F45E0400DD6EBC /* Tram Track Object detection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F22208423F45E0400DD6EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = FYP;
+				TargetAttributes = {
+					9F22208B23F45E0400DD6EBC = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 9F22208723F45E0400DD6EBC /* Build configuration list for PBXProject "Tram Track Object detection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F22208323F45E0400DD6EBC;
+			productRefGroup = 9F22208D23F45E0400DD6EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F22208B23F45E0400DD6EBC /* Tram Track Object detection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F22208A23F45E0400DD6EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F22209E23F45E0500DD6EBC /* LaunchScreen.storyboard in Resources */,
+				9F22209B23F45E0500DD6EBC /* Assets.xcassets in Resources */,
+				9F22209923F45E0400DD6EBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F22208823F45E0400DD6EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F22209623F45E0400DD6EBC /* SecondViewController.swift in Sources */,
+				9F2220AA23F45FE100DD6EBC /* Debugging.swift in Sources */,
+				9F2220B023F4607500DD6EBC /* Optimization.swift in Sources */,
+				9F22209423F45E0400DD6EBC /* FirstViewController.swift in Sources */,
+				9F3A4FA7242619ED00F4A116 /* yolocustom9.mlmodel in Sources */,
+				9F2220AC23F4602800DD6EBC /* BoundingBox.swift in Sources */,
+				9F2220AE23F4604B00DD6EBC /* Helpers.swift in Sources */,
+				9F2220A823F45FB600DD6EBC /* YOLO.swift in Sources */,
+				9F2220B623F46D7600DD6EBC /* yolo-tiny.mlmodel in Sources */,
+				9F22209023F45E0400DD6EBC /* AppDelegate.swift in Sources */,
+				9F2220A623F45F9000DD6EBC /* YoloModelSelection.swift in Sources */,
+				9F2220B223F4609900DD6EBC /* Settings.swift in Sources */,
+				9F22209223F45E0400DD6EBC /* SceneDelegate.swift in Sources */,
+				9F2220B423F460C300DD6EBC /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F22209723F45E0400DD6EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F22209823F45E0400DD6EBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F22209C23F45E0500DD6EBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F22209D23F45E0500DD6EBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F2220A023F45E0500DD6EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F2220A123F45E0500DD6EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F2220A323F45E0500DD6EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRLJ9VM545;
+				INFOPLIST_FILE = "Tram Track Object detection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sid.54807046FYP.Tram-Track-Object-Detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F2220A423F45E0500DD6EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRLJ9VM545;
+				INFOPLIST_FILE = "Tram Track Object detection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sid.54807046FYP.Tram-Track-Object-Detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F22208723F45E0400DD6EBC /* Build configuration list for PBXProject "Tram Track Object detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2220A023F45E0500DD6EBC /* Debug */,
+				9F2220A123F45E0500DD6EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2220A223F45E0500DD6EBC /* Build configuration list for PBXNativeTarget "Tram Track Object detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2220A323F45E0500DD6EBC /* Debug */,
+				9F2220A423F45E0500DD6EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F22208423F45E0400DD6EBC /* Project object */;
+}
